@@ -3,8 +3,7 @@ import { useState } from "react"
 export default function Countre1() {
     const[countre,last]=useState(0);
     function run4(){
-        if(countre>0){
-
+        if(countre>4){
             last(countre-5)
         }
     }
@@ -16,7 +15,6 @@ export default function Countre1() {
             last(countre-1)
         }
     }
-
     function run(){
         last(countre+1)
     }
