@@ -7,6 +7,7 @@ export default function Countre1() {
             last(countre-5)
         }
     }
+   
     function run3(){
         last(countre+5)
     }
